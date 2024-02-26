@@ -11,5 +11,11 @@
         "src": "/(.*)",
         "dest": "index.js"
       }
+    ],
+    "rewrites": [
+      {
+        "src": "/items/(.*)",
+        "dest": "/routes/items.js"
+      }
     ]
   }
