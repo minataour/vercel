@@ -14,8 +14,8 @@
     ],
     "rewrites": [
       {
-        "src": "/items/(.*)",
-        "dest": "/routes/items.js"
+        "source": "/items/(.*)",
+        "destination": "/routes/items.js"
       }
     ]
   }
