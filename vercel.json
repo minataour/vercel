@@ -4,11 +4,15 @@
       {
         "src": "index.js",
         "use": "@now/node"
+      },
+      {
+        "src": "/routes/items.js",
+        "use": "@now/node"
       }
     ],
     "rewrites": [
       {
-        "source": "/items/(.*)",
+        "source": "/items",
         "destination": "/routes/items.js"
       }
     ]
