@@ -8,6 +8,10 @@
       {
         "src": "/routes/items.js",
         "use": "@vercel/node"
+      },
+      {
+        "src": "/data/items.js",
+        "use": "@vercel/node"
       }
     ],
     "rewrites": [
